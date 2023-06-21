@@ -1,0 +1,26 @@
+body{  /*Formatamdo o corpo da pagina*/
+    background-color: silver; /*cor de fundo*/
+    color: black  /*cor de texto*/
+}
+*{  /*Formatando todos os elementos*/
+    font-size: verdana;  /*Definimdo fonte*/
+}
+h1{  /*Formatando o titulo da pagina*/
+    color: purple;  /*Definimdo cor do texto*/
+    text-align: center;  /*alinhamdo titulo no centro*/
+}
+fieldset{  /*Formatando a borda ao redor do formulario - caixa que emvolve itens formulados*/
+    width: 60%;  /*largura*/
+    margin: 0 auto; /*Centralização do formulario*/
+    border-radius: 15px; /*Borda arredondada*/
+    background-color: white;  /*Cor de fundo*/
+    box-shadow: 2px 2px 2px gray; /* sombra na caixa*/
+}
+input,select,textarea{ /*Formatando campo de entrada,SELEÇÃO e area do texto*/
+    border-radius: 4px; /* arredondar a borda*/
+    padding: 5px;  /*definimdo marge, interna*/
+    margin: 5px;  /* definindo marge externa*/
+}
+label{ /* texto antes dos campos*/
+    font-weight: bold; /*colocando texto em negrito*/
+}

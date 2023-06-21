@@ -1,0 +1,61 @@
+header{
+    background: white;
+    padding: 0px 0;
+}
+.caixa{
+    position: relative;
+    width: 20px ;
+    margin: 0 ;
+}
+.logo{
+    width: 15%;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+main{
+    color: #000000;
+}
+.Inicio{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Inicio li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.Inicio H2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.box{ 
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.Inicio img {
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+}

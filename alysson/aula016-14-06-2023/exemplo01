@@ -1,0 +1,29 @@
+import os
+secreta = 'sistema'
+secreta = secreta.upper
+palavra = '*'*len(secreta)
+vidas = 10 
+digitadas = ''
+print(palavra)
+while vidas > 0:
+    letra = input('Digite primeira letra: ').upper()
+    if digitadas.find(letra) >= 0:
+        ###que a letra ja foi digitada...
+        ###não aceita 
+        pass
+    else:
+        digitadas += letra
+
+
+    ###vereificar se a letra esta na palavra secreta 
+    auxiliar = list(palavra)
+    for i in range(len(secreta)):
+        if letra == secreta[i]:
+            #achou a letra na palavra secreta
+            auxiliar[i] = letra
+    palavra = ''.join(auxiliar)
+    os.system('clear')
+    print(palavra)
+    #percirreu todas e numca achou, diminue uma vida 
+    vidas -= 1
+

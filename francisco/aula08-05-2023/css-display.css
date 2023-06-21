@@ -1,0 +1,34 @@
+body, div, p {
+    margin: 0;
+}
+.principal {
+    font-family: arial;
+    font-size: 28px;
+    display: flex;
+}
+.primeira {
+    width: 33.33%; height: 150px;
+    background-color: chartreuse;
+    display: inline-table;
+}
+.segundo{ 
+    width: 33.33%; height: 150px;
+    background-color: yellow;
+    display: inline-table;
+
+}
+.terceira {
+    width: 33.33%; height: 150px;
+    background-color: deepskyblue;
+    display: inline-block;
+}
+.quarta {
+    width: 33.33%; height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+.quinta {
+    width: 33.33%; height: 150px;
+    background-color: blue;
+    display: inline-block;
+}

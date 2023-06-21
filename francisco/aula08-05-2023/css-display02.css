@@ -1,0 +1,79 @@
+body, div, p {
+    margin: 0;
+}
+.principal {
+    font-family: Arial;
+    font-size: 16pt;
+    display: flex;
+}
+.primeira {
+    width: 90%; height: 150px;
+    background-color: cadetblue;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border: black solid;
+}
+.segundo{ 
+    width: 90%; height: 150px;
+    background-color: red;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border: black solid;
+}
+.terceira {
+    width: 90%; height: 200x;
+    background-color: black;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border: black solid;
+    color: white;
+}
+.quarta {
+    width: 90%; height: 170px;
+    background-color: red;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border: black solid;
+}
+.quinta {
+    width: 90%; height: 190px;
+    background-color: black;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border: black solid;
+    color: white;
+}
+figure {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px 0px black;
+}
+figure img {
+    width: 100%;
+    height: 100%;
+}
+figure figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 3 s;
+}
+figure:hover figcaption {
+    opacity: 1;
+}
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

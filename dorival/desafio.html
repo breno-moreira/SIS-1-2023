@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Formulários </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estylo.css">
+        <meta name="author" content="Aline Zenker">
+    </head>
+    <body>
+        <h1> Formulários Dados Pessoais </h1>
+        <form method="post" name="form1" action="">
+        <fieldset>
+        <label> Nome: </label>
+        <input type="text" name="nome" size="30"
+        placeholder="Digite aqui">
+        <label> Data Nascimento: </label>
+        <input type="date" name="nasc">
+        <br>
+        <label> Endereço: </label>
+        <input type="text" name="endereco" size="25">
+        <label> N.º</label>
+        <input type="text" name="num" size="8">
+        <br>
+        <label> Cidade: </label>
+        <input type="text" name="cidade" size="25">
+        <label> Estado: </label>
+        <select name="estado">
+        <option value="estado">Selecione</option>
+        <option value="ac">Acre</option>
+        <option value="al">Alagoas</option>
+        <option value="am">Amazonas</option>
+        <option value="ap">Amapá</option>
+        <option value="ba">Bahia</option>
+        <option value="ce">Ceará</option>
+        <option value="df">Distrito Federal</option>
+        <option value="es">Espírito Santo</option>
+        <option value="go">Goiás</option>
+        <option value="ma">Maranhão</option>
+        <option value="mt">Mato Grosso</option>
+        <option value="ms">Mato Grosso do Sul</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="pa">Pará</option>
+        <option value="pb">Paraíba</option>
+        <option value="pr">Paraná</option>
+        <option value="pe">Pernambuco</option>
+        <option value="pi">Piauí</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="rn">Rio Grande do Norte</option>
+        <option value="ro">Rondônia</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="rr">Roraima</option>
+        <option value="sc">Santa Catarina</option>
+        <option value="se">Sergipe</option>
+        <option value="sp">São Paulo</option>
+        <option value="to">Tocantins</option>
+        </select>
+        <br>
+        <label> Sexo: </label><br>
+        <input type="radio" name="sexo" value="f"> Feminino <br>
+        <input type="radio" name="sexo" value="m"> Masculino
+        <br>
+        <input type="radio" name="sexo" value="o"> Outros <br>
+
+        <label> Bens Pessoais: </label> <br>
+        <input type="checkbox" name="bens" value="casa"> Casa
+        <br>
+        <input type="checkbox" name="bens" value="carro"> Carro
+        <br>
+        <input type="checkbox" name="bens" value="moto"> Moto
+        <br>
+        <label>Experiências Profissionais: </label><br>
+        <textarea name="exp" cols="25" rows="6"
+        placeholder="Digite suas experiências"></textarea>
+        <br>
+        <input type="submit" name="envia" value="Enviar">
+        <input type="reset" name="limpa" value="Limpar">
+        </fieldset><!--fecha maior-->
+        </form>
+    </body>
+</html>
